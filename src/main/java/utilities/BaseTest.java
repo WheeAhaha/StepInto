@@ -11,6 +11,10 @@ public class BaseTest {
     public WebDriverWait wait;
     public PageGenerator page;
 
+    public WebDriver getDriver() {
+        return driver;
+    }
+
     @BeforeClass
     public void setup () {
 

@@ -1,5 +1,6 @@
 package net.meritagehomes.uat.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,22 +28,26 @@ public class HomePage extends BasePage {
     //*********Page Methods*********
 
     //Go to Homepage
+    @Step
     public void goToHomePage (){
         driver.get(baseURL);
         //driver.navigate().to(baseURL)
     }
 
     //Verify Text Condition
+    @Step
     public void verifyTitle (String expectedText) {
 
         Assert.assertEquals(driver.getTitle(), expectedText);
     }
 
+    @Step
     public AgentsPage goToAgents(){
         driver.get("https://uat.meritagehomes.com/agents");
         return new PageFactory().initElements(driver,AgentsPage.class);
     }
 
+    @Step
     public void fetchText(){
         WebElement wb = signInButtonClass;
         wb.click();

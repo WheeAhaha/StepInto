@@ -15,10 +15,12 @@ public class PageGenerator {
     public  <TPage extends BasePage> TPage getInstance (Class<TPage> pageClass) {
         try {
             //Initialize the Page with its elements and return it.
-            return PageFactory.initElements(driver,  pageClass);
+//            return PageFactory.initElements(driver,  pageClass);
+            return pageClass.getDeclaredConstructor(WebDriver.class).newInstance(this.driver);
         } catch (Exception e) {
             e.printStackTrace();
-            throw e;
+//            throw e;
+            return null;
         }
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.297" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.26" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="invalidLoginTest_InvalidUserNameInvalidPassword" classname="net.meritagehomes.uat.SearchTest" time="7.804">
+  <testcase name="invalidLoginTest_InvalidUserNameInvalidPassword" classname="net.meritagehomes.uat.SearchTest" time="7.299">
     <failure message="expected [Build2 a Home with Meritage Homes] but found [Build a Home with Meritage Homes]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Build2 a Home with Meritage Homes] but found [Build a Home with Meritage Homes]
 	at net.meritagehomes.uat.SearchTest.invalidLoginTest_InvalidUserNameInvalidPassword(SearchTest.java:19)
 </failure>
@@ -76,9 +76,9 @@ Screenshot captured for test case:invalidLoginTest_InvalidUserNameInvalidPasswor
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 43273
+Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 4450
 Only local connections are allowed.
-May 08, 2018 9:02:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 08, 2018 9:30:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

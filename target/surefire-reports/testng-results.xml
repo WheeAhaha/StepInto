@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Initial Suite" duration-ms="19722" started-at="2018-05-08T14:02:41Z" finished-at="2018-05-08T14:03:01Z">
+  <suite name="Initial Suite" duration-ms="15313" started-at="2018-05-08T14:30:33Z" finished-at="2018-05-08T14:30:48Z">
     <groups>
     </groups>
-    <test name="SearchFunctionVerification" duration-ms="19722" started-at="2018-05-08T14:02:41Z" finished-at="2018-05-08T14:03:01Z">
+    <test name="SearchFunctionVerification" duration-ms="15313" started-at="2018-05-08T14:30:33Z" finished-at="2018-05-08T14:30:48Z">
       <class name="net.meritagehomes.uat.SearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:net.meritagehomes.uat.SearchTest@3c0fae6c]" name="setup" is-config="true" duration-ms="9689" started-at="2018-05-08T09:02:41Z" finished-at="2018-05-08T09:02:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:net.meritagehomes.uat.SearchTest@c7a975a]" name="setup" is-config="true" duration-ms="6516" started-at="2018-05-08T09:30:33Z" finished-at="2018-05-08T09:30:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:net.meritagehomes.uat.SearchTest@3c0fae6c]" name="methodLevelSetup" is-config="true" duration-ms="6" started-at="2018-05-08T09:02:51Z" finished-at="2018-05-08T09:02:51Z">
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:net.meritagehomes.uat.SearchTest@c7a975a]" name="methodLevelSetup" is-config="true" duration-ms="3" started-at="2018-05-08T09:30:39Z" finished-at="2018-05-08T09:30:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method status="FAIL" signature="invalidLoginTest_InvalidUserNameInvalidPassword()[pri:0, instance:net.meritagehomes.uat.SearchTest@3c0fae6c]" name="invalidLoginTest_InvalidUserNameInvalidPassword" duration-ms="6053" started-at="2018-05-08T09:02:51Z" description="Test description in @Test annotation" finished-at="2018-05-08T09:02:57Z">
+        <test-method status="FAIL" signature="invalidLoginTest_InvalidUserNameInvalidPassword()[pri:0, instance:net.meritagehomes.uat.SearchTest@c7a975a]" name="invalidLoginTest_InvalidUserNameInvalidPassword" duration-ms="5719" started-at="2018-05-08T09:30:39Z" description="Test description in @Test annotation" finished-at="2018-05-08T09:30:45Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Build2 a Home with Meritage Homes] but found [Build a Home with Meritage Homes]]]>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:net.meritagehomes.uat.SearchTest@3c0fae6c]" name="teardown" is-config="true" duration-ms="1730" started-at="2018-05-08T09:02:59Z" finished-at="2018-05-08T09:03:01Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:net.meritagehomes.uat.SearchTest@c7a975a]" name="teardown" is-config="true" duration-ms="1064" started-at="2018-05-08T09:30:47Z" finished-at="2018-05-08T09:30:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

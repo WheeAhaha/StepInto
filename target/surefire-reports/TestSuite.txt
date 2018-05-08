@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.297 s <<< FAILURE! - in TestSuite
-invalidLoginTest_InvalidUserNameInvalidPassword(net.meritagehomes.uat.SearchTest)  Time elapsed: 7.804 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.26 s <<< FAILURE! - in TestSuite
+invalidLoginTest_InvalidUserNameInvalidPassword(net.meritagehomes.uat.SearchTest)  Time elapsed: 7.299 s  <<< FAILURE!
 java.lang.AssertionError: expected [Build2 a Home with Meritage Homes] but found [Build a Home with Meritage Homes]
 	at net.meritagehomes.uat.SearchTest.invalidLoginTest_InvalidUserNameInvalidPassword(SearchTest.java:19)
 

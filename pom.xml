@@ -6,7 +6,7 @@
 
     <groupId>QAwrapper</groupId>
     <artifactId>StepInto</artifactId>
-    <version>QA-0.0.0-aplha</version>
+    <version>QA-0.0.0-alpha</version>
 
     <properties>
         <aspectj.version>1.8.10</aspectj.version>

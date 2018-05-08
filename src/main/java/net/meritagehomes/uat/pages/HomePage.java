@@ -45,6 +45,7 @@ public class HomePage extends BasePage {
     public AgentsPage goToAgents(){
         driver.get("https://uat.meritagehomes.com/agents");
         return new PageFactory().initElements(driver,AgentsPage.class);
+
     }
 
     @Step
